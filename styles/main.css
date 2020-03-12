@@ -23,10 +23,23 @@ body {
   margin-top: 25px;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
 .mt-100 {
   margin-top: 100px;
 }
 
+.rocker-logo {
+  position: absolute;
+top: 50%;
+left: 50%;
+width: 300px;
+height: 43px;
+margin-top: 10px; /* Half the height */
+margin-left: -150px; /* Half the width */
+}
 
 
 /* WARNING:
@@ -38,6 +51,10 @@ body {
 }
 */
 
+.smaller-img {
+  width: 70%;
+  margin-top: 50px;
+}
 
 .btn-download {
   background-color: #1ABC9C;
@@ -57,6 +74,9 @@ body {
   background: #F3F5F9;
 }
 
+.background-blue {
+  background: #0032AE;
+}
 .main-header .contents {
   margin-top: 20px;
 }
@@ -136,7 +156,11 @@ body {
   width: 100px;
 }
 
-ul li {
+#column {
+  display:
+}
+
+.inline {
   display: inline-block;
   margin-top: 25px;
   margin-left: 8px;
@@ -153,6 +177,13 @@ ul li {
 }
 
 .google-box {
+  height: 350px;
+  width: 400px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.rocker-box {
   height: 350px;
   width: 400px;
   background-color: white;
