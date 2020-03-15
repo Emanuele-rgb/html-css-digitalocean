@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <!-- Main stylesheet -->
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/all.css">
 </head>
 
 <body>
@@ -24,25 +25,25 @@
     <div class="container">
 
         <div class="row">
-          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2">
             <div class="max-width box">
               <img id="logo" class"img-responsive mb-25" src="assets/do-logo.png" alt="">
             </div>
 
         </div>
 
-        <div class="col-lg-4 col-lg-offset-1 col-md-6 col-sm-4 col-xs-4">
-          <ul >
-             <li class="inline"><a href="#">Products</a></li>
+        <div class="col-lg-4 col-lg-offset-1 col-md-6 col-sm-4 hidden-xs">
+          <ul>
+             <li class="inline"><a href="#">Products <i class="fas fa-angle-down"></i></a></li>
              <li class="inline"><a href="#">Customers</a></li>
-             <li class="inline"><a href="#">Community</a></li>
+             <li class="inline"><a href="#">Community <i class="fas fa-angle-down"></i></a></li>
              <li class="inline"><a href="#">Pricing</a></li>
           </ul>
         </div>
-        <div class="col-lg-3 col-lg-offset-1 col-md-6 col-sm-4 col-xs-4">
+        <div class="col-lg-3 col-lg-offset-1 col-md-6 col-sm-4 hidden-xs">
           <ul>
              <li class="inline"><a href="#">Docs</a></li>
-             <li class="inline"><a href="#">Support</a></li>
+             <li class="inline"><a href="#">Support <i class="fas fa-angle-down"></i></a></li>
              <li class="inline"><a href="#">Login</a></li>
              <li class="inline"><a href="#">Sign Up</a></li>
           </ul>
@@ -53,31 +54,33 @@
       </div>
 </div>
 </div>
-<div class="container-fluid background-blue">
-<img id="jumbotron" class="text-center mb-25" src="assets/bg-banner-home.jpg" alt="Lorem">
+<div class="container-fluid background-blue jumbo">
+<div id="jumbotron">
+
+</div>
 
 <div class="container mt-100">
       <div class="row">
-        <div class="col-lg-7 col-md-6 col-sm-8 col-xs-8">
+        <div class="col-lg-7 col-md-6 col-sm-8 col-xs-12">
           <div class="contents">
 
             <h1 class="col-xs-12 white-color mb-25">The simplest cloud platform for developers & teams</h1>
-            <p class="col-xs-12 mb-25">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine of ten thousand.</p>
+            <p class="col-xs-12 white-color mb-25">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine of ten thousand.</p>
           </div>
           </div>
-          <div class="col-lg-5 col-md-6 col-sm-8 col-xs-8">
+          <div class="col-lg-5 col-md-6 col-sm-8 col-xs-12">
             <div class="contents">
-              <div class="google-box">
+              <div class="mb-75 google-box center-block">
                 <h3 class="col-xs-12 text-center">Deploy your app in seconds.</h3>
                 <h3 class="col-xs-12 text-center">Get started now</h3>
                 <form>
-                  <div class="col-lg-10 col-xs-10">
+                  <div class="col-lg-12 col-xs-12">
                     <div class="form-group">
                       <label for="exampleInputEmail1"></label>
                       <input type="email" class="form-control" placeholder="Email">
                     </div>
                   </div>
-                    <div class="col-lg-10 col-xs-10">
+                    <div class="col-lg-12 col-xs-12">
                   <div class="form-group">
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                   </div>
@@ -105,34 +108,34 @@
 
         <div class="row">
 
-          <div class="container mt-100">
+          <div class="container mt-50 mb-25">
 
-        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12">
+        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-6">
           <div class="contents azure-color">
             <a href="#"><img class="logo img-responsive" src="assets/docker.png" alt="Lorem"></a>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12">
+        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-6">
           <div class="contents azure-color">
             <a href="#"><img class="logo img-responsive" src="assets/gitlab.png" alt="Lorem"></a>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12">
+        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-6">
           <div class="contents azure-color">
             <a href="#"><img class="img-responsive logo" src="assets/slack.png" alt="Lorem"></a>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12">
+        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-6">
           <div class="contents azure-color">
             <a href="#"><img class="img-responsive logo" src="assets/hashicorp.png" alt="Lorem"></a>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12">
+        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-6">
           <div class="contents azure-color">
             <a href="#"><img class="img-responsive logo" src="assets/hashicorp.png" alt="Lorem"></a>
           </div>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12">
+        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-6">
           <div class="contents azure-color">
             <a href="#"><img class="img-responsive logo" src="assets/splunk.png" alt="Lorem"></a>
           </div>
@@ -154,16 +157,16 @@
       <div class="container-small center-block">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 text-center ">
-            <h2>Deploy and scale seamlessly</h2>
-            <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CS environments</p>
+            <h2 class="mb-25">Deploy and scale seamlessly</h2>
+            <p class="mb-25">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CS environments</p>
           </div>
         </div>
 
         <div class="row">
 
-          <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4 white-color mb-25">
+          <div class="col-xs-12 col-sm-10 col-md-4 col-lg-4 white-color mb-25">
 
-            <ul id="column">
+            <ul id="column-deploy">
                <li><a href="#">Deploy</a></li>
                <li><a href="#">Manage</a></li>
                <li><a href="#">Secure</a></li>
@@ -191,7 +194,7 @@
     <div class="container-fluid  background-grey">
 
 
-<div class="container-small center-block">
+<div class="container center-block">
 
 <div class="row">
   <div class="col-lg-12">
@@ -199,7 +202,7 @@
       <h3 class="mt-25">Designed for developers</h3>
       <p class="mt-25">Build more and spend less time managing your infrasstructure with our easy-to-use control panel and API.</p>
     </div>
-<img class="img-responsive smaller-img center-block" src="assets/create-droplet.jpg" alt="">
+<img class="mb-75 img-responsive smaller-img center-block" src="assets/create-droplet.jpg" alt="">
   </div>
 </div>
 
@@ -232,48 +235,126 @@
   </div>
 </div>
 </div>
-<div class="container background-blue">
+<div class="container-fluid background-blue">
+  <div class="container">
+
+
   <h4 class="white-color text-center mt-25">Service your customers around the world from 12 regions</h4>
   <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-6 col-md-12 col-xs-12">
       <div class="">
-
-      </div>
-      <div class="">
-
-      </div>
-      <div class="">
-
-      </div>
-      <div class="">
-
-      </div>
-      <div class="">
-
-      </div>
-      <div class="">
-
+        <table class="mb-25">
+          <tbody>
+            <tr class="white-color">
+              <th>AMS2</th>
+              <td>Amsterdam, Netherlands</td>
+              <td><a href="#">Test speed</a> </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="white-color">
+              <th>AMS2</th>
+              <td>Amsterdam, Netherlands</td>
+              <td><a href="#">Test speed</a> </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="white-color">
+              <th>AMS2</th>
+              <td>Amsterdam, Netherlands</td>
+              <td><a href="#">Test speed</a> </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="white-color">
+              <th>AMS2</th>
+              <td>Amsterdam, Netherlands</td>
+              <td><a href="#">Test speed</a> </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="white-color">
+              <th>AMS2</th>
+              <td>Amsterdam, Netherlands</td>
+              <td><a href="#">Test speed</a> </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="white-color">
+              <th>AMS2</th>
+              <td>Amsterdam, Netherlands</td>
+              <td><a href="#">Test speed</a> </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6 col-md-12">
+      <div class="">
+        <table class="mb-25">
+          <tbody>
+            <tr class="white-color">
+              <th>AMS2</th>
+              <td>Amsterdam, Netherlands</td>
+              <td><a href="#">Test speed</a> </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="white-color">
+              <th>AMS2</th>
+              <td>Amsterdam, Netherlands</td>
+              <td><a href="#">Test speed</a> </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="white-color">
+              <th>AMS2</th>
+              <td>Amsterdam, Netherlands</td>
+              <td><a href="#">Test speed</a> </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="white-color">
+              <th>AMS2</th>
+              <td>Amsterdam, Netherlands</td>
+              <td><a href="#">Test speed</a> </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="white-color">
+              <th>AMS2</th>
+              <td>Amsterdam, Netherlands</td>
+              <td><a href="#">Test speed</a> </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr class="white-color mb-25">
+              <th>AMS2</th>
+              <td>Amsterdam, Netherlands</td>
+              <td><a href="#">Test speed</a></td>
+            </tr>
+          </tbody>
+        </table>
+          </div>
+            </div>
+              </div>
+                </div>
+                </div>
 
-    </div>
-  </div>
-  </div>
 
   <div class="container-fluid background-grey">
 
 
-<div class="container-small ">
+<div class="container">
 
 
   <div class="row">
-    <div class="col-lg-12 col-lg-offset-5">
+    <div class="col-lg-12">
       <div class="design text-center">
         <h3 class="mt-25">Designed for developers</h3>
-        <p class="mt-25">Build more and spend less time managing your infrasstructure with our easy-to-use control panel and API.</p>
+        <p class="mt-25">Build more and spend less time managing y  our infrasstructure with our easy-to-use control panel and API.</p>
       </div>
-      <div class="rocker-box center-block">
+      <div class="rocker-box mb-25 center-block">
           <img class="img-responsive rocker-logo" src="assets/rockerbox-logo.png" alt="">
       </div>
 
@@ -281,6 +362,88 @@
   </div>
   </div>
     </div>
+
+    <div class="container-fluid background-blue">
+      <h1 class="text-center white-color mb-25 mt-50">Get started now.</h1>
+      <div class="btn-create center-block mb-25">
+        Create your account
+      </div>
+
+      </div>
+
+      <div class="container-fluid background-dblue">
+        <div class="container">
+          <div class="row mt-50">
+
+            <div class="col-xs-12 col-sm-8 col-md-4 col-lg-4 white-color mb-25">
+              <img id="logo-small" class"img-responsive mb-25" src="assets/logo-small.svg" alt="">
+              <h4>&copy; DigitalOcean, LCC. All rights reserved.</h4>
+              <p>Proudly made in ITALY</p>
+              <i class="fab fa-2x fa-twitter"></i>
+              <i class="fab fa-2x fa-facebook"></i>
+              <i class="fab fa-2x fa-instagram"></i>
+              <i class="fab fa-2x fa-youtube"></i>
+              <i class="fab fa-2x fa-linkedin"></i>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-4 white-color col-lg-2  mb-25">
+              <h4>Company</h4>
+              <ul>
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Leadership</a></li>
+                 <li><a href="#">Link</a></li>
+                 <li><a href="#">Blog</a></li>
+                 <li><a href="#">Careers</a></li>
+                 <li><a href="#">Partner Network</a></li>
+                 <li><a href="#">Referral Program</a></li>
+                 <li><a href="#">Events</a></li>
+                 <li><a href="#">Press</a></li>
+                 <li><a href="#">Legal & Security</a></li>
+              </ul>
+            </div>
+            <div class="white-color col-xs-12 col-sm-8 col-md-4 col-lg-2  mb-25">
+              <h4>Products</h4>
+              <ul id="column">
+                 <li><a href="#">Droplets</a></li>
+                 <li><a href="#">Spaces</a></li>
+                 <li><a href="#">Kubernetes</a></li>
+                 <li><a href="#">Load Balancers</a></li>
+                 <li><a href="#">Block Storage</a></li>
+                 <li><a href="#">Tools & integrations</a></li>
+                 <li><a href="#">One-Click Apps</a></li>
+                 <li><a href="#">API</a></li>
+                 <li><a href="#">Pricing</a></li>
+                 <li><a href="#">Documentation</a></li>
+                 <li><a href="#">Release Notess</a></li>
+              </ul>
+          </div>
+          <div class="white-color col-xs-12 col-sm-8 col-md-4  col-lg-2  mb-25">
+            <h4>Community</h4>
+            <ul id="column">
+               <li><a href="#">Tutorials</a></li>
+               <li><a href="#">Meetups</a></li>
+               <li><a href="#">Q&A</a></li>
+               <li><a href="#">Write for Donations</a></li>
+               <li><a href="#">Droplets for demos</a></li>
+               <li><a href="#">Hatch</a></li>
+               <li><a href="#">Shop Swag</a></li>
+               <li><a href="#">Research Program</a></li>
+               <li><a href="#">Current Research</a></li>
+               <li><a href="#">Open Source</a></li>
+            </ul>
+
+        </div>
+        <div class="white-color col-xs-12 col-sm-8 col-md-4  col-lg-2  mb-25">
+          <h4>Support</h4>
+          <ul id="column">
+             <li><a href="#">Contact Support</a></li>
+             <li><a href="#">FAQ</a></li>
+             <li><a href="#">Network Status</a></li>
+          </ul>
+      </div>
+        </div>
+      </div>
+
+
   </main>
 
 

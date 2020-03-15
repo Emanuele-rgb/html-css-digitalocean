@@ -8,9 +8,6 @@ body {
 .white-color {
   color: #fff;
 }
-.azure-color {
-  color: rgba(255,255,255, .25);
-}
 
 .text-center {
   text-align: center;
@@ -19,6 +16,11 @@ body {
 .mb-25 {
   margin-bottom: 25px;
 }
+
+.mb-75 {
+  margin-bottom: 75px;
+}
+
 .mt-25 {
   margin-top: 25px;
 }
@@ -61,12 +63,25 @@ margin-left: -150px; /* Half the width */
   border: 1px solid white;
   border-radius: 5px;
   color: white;
-  padding: 10px 150px;
+  padding: 12px 15px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   margin-left: 10px;
-  max-width: 300px;
+  width: 90%;
+}
+
+.btn-create {
+  background-color: white;
+  border-radius: 5px;
+  color: blue;
+  border: none;
+  padding: 12px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 250px;
 }
 
 /* HEADER */
@@ -77,6 +92,11 @@ margin-left: -150px; /* Half the width */
 .background-blue {
   background: #0032AE;
 }
+
+.background-dblue {
+  background: #031C4E;
+}
+
 .main-header .contents {
   margin-top: 20px;
 }
@@ -122,7 +142,7 @@ margin-left: -150px; /* Half the width */
 }
 
 .container-small {
-  width: 1000px;
+  width: 60%;
 }
 
 .center-block {
@@ -141,13 +161,16 @@ margin-left: -150px; /* Half the width */
 }
 
 .logo {
-  width: 180px;
-  height: 100px;
-  display: block;
+  width: 200px;
+   height: 200px;
+   object-fit: contain;
 }
 
 #logo {
   width: 100%;
+}
+#logo-small {
+  width: 20%;
 }
 
 .box {
@@ -156,8 +179,9 @@ margin-left: -150px; /* Half the width */
   width: 100px;
 }
 
-#column {
-  display:
+#column-deploy {
+  border-left: 1px solid grey;
+  padding-left: 10px;
 }
 
 .inline {
@@ -166,10 +190,11 @@ margin-left: -150px; /* Half the width */
   margin-left: 8px;
 }
 
-#jumbotron {
-  position: absolute;
-  max-height: 100%;
-  max-width: 100%;
+.jumbo {
+  background-image: url(bg-banner-home.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
 }
 
 .container-fluid {
@@ -177,8 +202,8 @@ margin-left: -150px; /* Half the width */
 }
 
 .google-box {
-  height: 350px;
-  width: 400px;
+  height: 400px;
+  width: 90%;
   background-color: white;
   border-radius: 5px;
 }
@@ -190,6 +215,11 @@ margin-left: -150px; /* Half the width */
   border-radius: 5px;
 }
 
+td, th {
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
 .logins {
   margin-left: 10px;
 }
@@ -197,4 +227,21 @@ margin-left: -150px; /* Half the width */
 #small-text {
   font-size: 15px;
 }
+
+.form-group {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+tr {
+  width: 100%;
+}
+
 /* PLAN */
